@@ -1,0 +1,7 @@
+TestID,Test_Name,Username,Password,Expected_Result,Screenshot_Required
+LOG-01,Valid_Login,practice,SuperSecretPassword!,Success,Yes
+LOG-02,Invalid_Login,test_user,wrongpass,Error_Message,Yes
+LOG-03,Empty_Password,test_user,,Error_Message,No
+PROD-01,Search_Product,,,Products_Displayed,No
+PROD-02,Filter_By_Price,,,Filtered_Results,No
+CART-01,Add_To_Cart,test_user,Passw0rd,Success,Yes
